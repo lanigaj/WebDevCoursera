@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Explore the portfolio of a passionate web developer. View projects, skills, and contact information.">
+  <title>Portfolio of John Doe | Web Developer & Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Recommended font for readability -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav role="navigation" aria-label="Main navigation">
+      <div class="hamburger" tabindex="0" aria-label="Open navigation menu" aria-controls="main-menu"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="main-menu">
+        <li><a href="#about-me" tabindex="0">About Me</a></li>
+        <li><a href="#projects" tabindex="0">Projects</a></li>
+        <li><a href="#skills" tabindex="0">Skills</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>John Doe - Web Developer Portfolio</h1>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm John Doe, a passionate web developer with experience in building accessible and responsive web
+        applications. I enjoy learning new technologies and collaborating on innovative projects.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <figure>
+          <img src="img/project1.png"
+            alt="Screenshot of Project 1: Task Tracker web application interface showing task list and controls"
+            width="200">
+          <figcaption>Project 1 Screenshot</figcaption>
+        </figure>
+        <h3>Task Tracker Web App</h3>
+        <p>A web application that helps users track their tasks efficiently. Built with HTML, CSS, and JavaScript.</p>
+      </article>
+      <article>
+        <figure>
+          <img src="img/project2.png"
+            alt="Screenshot of Project 2: Interactive portfolio site homepage with navigation and featured projects"
+            width="200">
+          <figcaption>Project 2 Screenshot</figcaption>
+        </figure>
+        <h3>Interactive Portfolio Site</h3>
+        <p>An interactive portfolio site showcasing my skills and projects. Developed using React and styled-components.
+        </p>
+      </article>
+      <!-- Add more <article> elements for additional projects -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 &amp; CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Git &amp; GitHub</li>
+        <li>Responsive Design</li>
+        <li>REST APIs</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 John Doe. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
